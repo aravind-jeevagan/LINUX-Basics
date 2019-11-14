@@ -1,0 +1,39 @@
+------------------------------------------
+#These are the basic intructions of linux
+------------------------------------------
+
+*)  Linux follows Directory Tree Structure '/' - is a root directory & under this all the other directories are available 
+*)  Each directory used for diffrent purposes
+*)  Permissions plays an important role in linux [ read , writes, Execute ]
+*)  Linux is open source & free - Derived from UNIX, written in C -low level language [ Deals with register, processor ]
+*)  Low Level language - Close to the hardware - Machine language or Assembly Language [ Deals with arrays, loop, if, etc ]
+*)  High Level Language - Human language - to instruct the machine
+*)  Process of making High level language to Machine level language is called compile
+*)  Terminal - It's the place where u can interacte with commands.[ File Manipulation, Accesss, User Account , Install & Uninsatll SW]
+*)  In Server version of Ubuntu & Other Distributions has no GUI. Only way to access the machine is Terminal only
+*)  Linux Kernal is the heart. All the distributions providers [ ubuntu, linux mint, Centos, Fedora, Redhat, Kali linux, etc] they will
+    take the keral & they will modify & realease it their own linux version. That means "ubuntu, linux mint, Centos, Fedora, Redhat,
+    Kali linux, etc ] all are Linux only
+
+----------------
+Basic Commands:
+---------------
+
+*) pwd - present working Directory
+*) ls - listing all the files & directories in the directory
+*) cd - Change Directory
+*) mkdir - Creates new Direcoty
+*) rmdir - removes an empty Directory
+*) rm - Removes files & non-empty directory
+*) cat - concatenate more than one files & displays all the contents in the termial [ cat > test.txt creates file , cat -n test.txt with      numbers ]
+*) touch - creates new file
+*) mv - moves the files & directory from source location to Destination  location
+*) cp - copies the files & directory from source location to Destination location
+*) vim, nano - are terminal editor - Edit files using terminal
+*) gedit is like notepad
+*) man & --help - tells the user usage of the command
+*) exit - exit the terminal
+*) reboot - reboot the machine
+*) adduser newuser - add new user
+*) deluser --remove-home newuser - delete a user with their files
+*) sudo login - swith to other user account
