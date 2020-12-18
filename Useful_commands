@@ -1,0 +1,79 @@
+cd ---- moves to home dir
+
+man -- manual
+help
+ls -l
+ls -lh ---- human readable
+
+
+Wildcards:
+ls *.Txt ---- list all the Txt files
+ls ?.Txt  ---- list only Txt file which has one character eg a.txt b.txt
+ls file[1234].Txt 
+
+mkdir -p nee/folder/subfolder 
+-p to create subfolders
+
+Mkdir "Hello world" 
+To include space in folder name
+
+rm file.txt
+rmdir emptyfolder
+rm -r folderhasfiles
+rm -ri folder ------interactive 
+
+NANO:
+
+^ ctrl
+M- alt
+
+-i      --case insensitive
+FIND:
+
+find -name "*.Txt"
+find -iname "*.TXT"
+find -type f ----file
+find -type d -----dir
+find -maxdepth 2 ----levels to search
+
+
+Viewing files:
+cat
+tac ----- reverse order vertically
+rev ------ reverse horizontally
+less -----when file size is big 
+head -n 20 test.txt -----first 20 lines
+Tail -n 20 -----last 20 lines
+
+
+
+
+
+
+Installation and Removal
+# rpm -i --install (install new RPM; error if already installed)
+# rpm -U --upgrade (delete existing RPM, if any; install new)
+# rpm -F --freshen (update RPM only if package already installed)
+# rpm -e --erase (remove, delete, expunge)
+
+
+
+PACKAGE
+#rpm -q [packages] [information]
+# rpm -qa (all installed packages)
+# rpm -q package_name
+# rpm -qf (filename)
+# rpm -qp (package filename)
+$ rpm -qa | grep foo
+
+
+Tee command
+
+ls -l | tee new.txt | cat > t.txt
+
+
+Tee command is literally a "T"
+
+COMMAND flows from left to right 
+
+It will spit out the result of command in new.txt
