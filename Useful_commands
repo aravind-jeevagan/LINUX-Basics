@@ -38,12 +38,21 @@ find -maxdepth 2 ----levels to search
 
 
 Viewing files:
-cat
+cat file.txt
 tac ----- reverse order vertically
 rev ------ reverse horizontally
-less -----when file size is big 
+less file.txt -----when file size is big 
 head -n 20 test.txt -----first 20 lines
 Tail -n 20 -----last 20 lines
+
+Sorting:
+
+sort test.txt
+sort -n test.tzt ------> for numbers
+sort -r -----> for reverse order
+sort -u -----> for unique list
+
+
 
 
 
