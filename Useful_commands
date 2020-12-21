@@ -54,6 +54,28 @@ sort -u -----> for unique list
 
 
 
+ARCHIVING-COMPRESSING:
+It involves two steps: 
+
+1.creating tar balls
+tar -cvf tarballname file1.txt file2.txt
+C- creating tar
+V - verbose
+F ----file
+
+Extracting ----x
+
+tar -xvf tarballname
+
+2.zip tarball using gzip or bzip2
+
+gzip name.tar -------name.tar.gz
+gunzip name.tra.gz
+
+
+creating Zip file:
+zip name.zip file1 file 2
+Unzip name.zip
 
 
 
