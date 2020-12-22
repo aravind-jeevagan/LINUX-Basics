@@ -79,7 +79,22 @@ Unzip name.zip
 
 
 
+To make file executable
+chmod +x file.txt
 
+CRONTAB:
+To auto schedule jobs/commands
+
+crontab -e ------- take u to crontab,where u can view cronjobs and can add new cron jobs
+*  * * * Command ------order for cronjob
+
+
+To find about the machine like Version, flavour:
+
+uname -o
+Uname -r
+hostnamectl
+cat /etc/os-release
 
 Installation and Removal
 # rpm -i --install (install new RPM; error if already installed)
